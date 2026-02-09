@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto Pulse 2026</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1726243630184473" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Orbitron:wght@400;700&display=swap');
+      
+      :root {
+        --bg: #050505;
+        --card-bg: #0a0a0a;
+        --text: #e2e8f0;
+        --text-dim: #64748b;
+        --electric-green: #39FF14;
+        --electric-blue: #00FFFF;
+        --electric-red: #FF3131;
+        --border: #1a1a1a;
+        --chart-line: #00FFFF;
+        --chart-fill: rgba(0, 255, 255, 0.1);
+        --grid: #111111;
+      }
+
+      .light-mode {
+        --bg: #f8fafc;
+        --card-bg: #ffffff;
+        --text: #0f172a;
+        --text-dim: #64748b;
+        --electric-green: #16a34a;
+        --electric-blue: #0284c7;
+        --electric-red: #dc2626;
+        --border: #e2e8f0;
+        --chart-line: #0284c7;
+        --chart-fill: rgba(2, 132, 199, 0.1);
+        --grid: #f1f5f9;
+      }
+
+      body {
+        background-color: var(--bg);
+        color: var(--text);
+        font-family: 'JetBrains+Mono', monospace;
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+
+      .font-orbitron { font-family: 'Orbitron', sans-serif; }
+      .electric-green { color: var(--electric-green); }
+      .electric-blue { color: var(--electric-blue); }
+      .electric-red { color: var(--electric-red); }
+      
+      .border-electric-green { border-color: var(--electric-green); }
+      .bg-card { background-color: var(--card-bg); }
+      
+      ::-webkit-scrollbar { width: 6px; height: 6px; }
+      ::-webkit-scrollbar-track { background: var(--bg); }
+      ::-webkit-scrollbar-thumb { background: var(--electric-blue); border-radius: 4px; }
+      
+      .custom-scrollbar::-webkit-scrollbar { width: 5px; height: 5px; }
+      .custom-scrollbar::-webkit-scrollbar-thumb { background: var(--electric-blue); border-radius: 10px; }
+      
+      @keyframes fadeIn { 
+        from { opacity: 0; transform: scale(0.98); } 
+        to { opacity: 1; transform: scale(1); } 
+      }
+      
+      .animate-fadeIn { 
+        animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards; 
+      }
+
+      .recharts-responsive-container { min-height: 300px; }
+      
+      .ad-container {
+        width: 100%;
+        min-width: 100%;
+        margin: 2rem 0;
+        min-height: 100px;
+        background: rgba(255,255,255,0.02);
+        border: 1px dashed var(--border);
+        display: block;
+        text-align: center;
+        border-radius: 1rem;
+        overflow: hidden;
+      }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@18.3.1",
+        "react/": "https://esm.sh/react@18.3.1/",
+        "react-dom": "https://esm.sh/react-dom@18.3.1",
+        "react-dom/": "https://esm.sh/react-dom@18.3.1/",
+        "@google/genai": "https://esm.sh/@google/genai@^1.40.0",
+        "recharts": "https://esm.sh/recharts@2.12.7?external=react,react-dom"
+      }
+    }
+    </script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
